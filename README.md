@@ -1,4 +1,4 @@
-# Hello UNCC Charlotte Data Analyst Bootcamp Gradders! This is my module 2 project!
+# Hello UNCC Data Analyst Bootcamp Gradders! This is my module 2 project!
 
 No code was directly copied, however ussage of Microsoft Co-pilot was used to ask questions about proper syntax and errors, primarily through Greatest % Increase, Greatest % decrease, and Greatest total Volume.
 
