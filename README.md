@@ -9,6 +9,7 @@ The code is in [VBA-Challenge/Code/SuperDuperStockAnnalyserNewAndImproved.vba](h
 The spreedsheet I used for final testing is in: [VBA-Challenge\Test Workbooks](https://github.com/RickGrimesCodes/VBA-Challenge/tree/main/Test%20Workbooks)
 
 The demo of the code is in [VBA-Challenge/Demonstration of code](https://github.com/RickGrimesCodes/VBA-Challenge/tree/main/Demonstration%20of%20code). There are two photos, 'Demo2018.PNG' and 'Demo2019.PNG', showing the final results of the code running; finally there is a quick video demonstrating the code in action, titled CodeDemonstration.MKV
+![Demovid](https://github.com/RickGrimesCodes/VBA-Challenge/blob/main/Demonstration%20of%20code/CodeDemonstration.mkv)
 ![Demo2018](https://github.com/RickGrimesCodes/VBA-Challenge/assets/161536912/5311ec62-f256-4d84-bdd7-819058c02fe5)
 ![Demo2019](https://github.com/RickGrimesCodes/VBA-Challenge/assets/161536912/0e441cbc-2548-4ea7-b1f3-c9aef5bf9e7c)
 
