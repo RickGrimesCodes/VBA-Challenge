@@ -9,5 +9,7 @@ The code is in VBA-Challenge/Code/SuperDuperStockAnnalyserNewAndImproved.vba
 The spreedsheet I used for final testing is in: VBA-Challenge\Test Workbooks\ Multiple_year_stock_data.xlsx
 
 The demo of the code is in VBA-Challenge/Demonstration of code. There are two photos, 'Demo2018.PNG' and 'Demo2019.PNG', showing the final results of the code running; finally there is a quick video demonstrating the code in action, titled CodeDemonstration.MKV
-[Demonstration of code\CodeDemonstration.MKV]
+![Demo2018](https://github.com/RickGrimesCodes/VBA-Challenge/assets/161536912/5311ec62-f256-4d84-bdd7-819058c02fe5)
+![Demo2019](https://github.com/RickGrimesCodes/VBA-Challenge/assets/161536912/0e441cbc-2548-4ea7-b1f3-c9aef5bf9e7c)
+
 I hope everything works as intended, and this README is good, haven't learned what all I can do with this yet. Have a great day!
