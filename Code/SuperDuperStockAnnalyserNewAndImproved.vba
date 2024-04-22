@@ -1,4 +1,4 @@
-Attribute VB_Name = "SuperDuperStockAnnalyserNewandImproved"
+Attribute VB_Name = "Module1"
 Sub Module2Challenge():
 Dim ws As Worksheet
 For Each ws In ThisWorkbook.Worksheets
@@ -17,7 +17,6 @@ With ws
     ws.Range("O4").Value = "Greatest Total Volumn"
     ws.Range("P1").Value = "Ticker"
     ws.Range("Q1").Value = "Value"
-    
     'Dim'ing a bunch of stuff I will use for stuff later
     Dim rowCount As Double
     Dim VolTotal As Double
@@ -37,13 +36,9 @@ With ws
         If ws.Cells(Row, 1).Value <> ws.Cells(Row + 1, 1).Value Then
         
             Ticker = ws.Cells(Row, 1).Value
-            
             VolTotal = VolTotal + ws.Cells(Row, 7).Value
-            
             ws.Cells(summaryRow, 9).Value = Ticker
-            
             ws.Cells(summaryRow, 12).Value = VolTotal
-            
             VolTotal = 0
             
             OpenBeggining = ws.Cells((Row - RepeatCounter), 3)
@@ -54,23 +49,20 @@ With ws
                 If ws.Cells(summaryRow, 10) > 0 Then
                     ws.Cells(summaryRow, 10).Interior.ColorIndex = 4
                     ElseIf ws.Cells(summaryRow, 10) = 0 Then
-                    ws.Cells(summaryRow, 10).Interior.ColorIndex = 6 'I hope this is orange for 0 okay
+                    ws.Cells(summaryRow, 10).Interior.ColorIndex = 6 'I hope this orange is okay for 0
                     Else
                     ws.Cells(summaryRow, 10).Interior.ColorIndex = 3
-                    
-                    
                 End If
             
             summaryRow = summaryRow + 1
-            
             RepeatCounter = 0 'probably not the best solution
         Else
             RepeatCounter = RepeatCounter + 1 'neither is this
             VolTotal = VolTotal + ws.Cells(Row, 7).Value
-            
-            
         End If
+    
     Next Row
+    
     Dim MultiVariable As Double
     Dim CellAddress As Range
     Dim CellAddress2 As Range
